@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.signup-container {
+    text-align: center;
+}
+
+.signup-form {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    min-width: 400px;
+    max-width: 500px;
+    margin: auto;
+    color: black;
+    text-align: left;
+}
+
+.course-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.course-box {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.course-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #4e54c8;
+    margin-bottom: 5px;
+}
+
+.course-subtitle {
+    font-size: 14px;
+    color: #6b6b6b;
+    margin-bottom: 30px;
+}
+
+.course-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.course-description {
+    font-size: 14px;
+    color: #6b6b6b;
+    margin-bottom: 20px;
+}
+
+.course-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-label {
+    font-size: 14px;
+    color: #6b6b6b;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+.dropdown {
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.dropdown:focus {
+    border-color: #4e54c8;
+    outline: none;
+}
+
+.course-next-btn {
+    background-color: #4e54c8;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.course-next-btn:hover {
+    background-color: #3a41a3;
+}
+
+.login {
+    font-size: 12px;
+    color: #6b6b6b;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login a {
+    color: #4e54c8;
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+.signup-form h2 {
+    margin-bottom: 10px;
+}
+
+.signup-form p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.signup-form input {
+    display: block;
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.signup-form button {
+    background: #4e54c8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 300px;
+}
+
+.signup-form button:hover {
+    background: #3d44a0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.dropdown-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.dropdown-wrapper input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.dropdown-item {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.dropdown-item:hover {
+    background-color: #f7f7f7;
+}
+
+.input-wrapper {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.skill {
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.skill.selected {
+    background-color: #000;
+    color: #fff;
+}
+
+.skill .remove {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn {
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #444;
+}
